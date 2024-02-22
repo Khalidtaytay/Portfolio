@@ -344,6 +344,11 @@ textarea{
  
  }
  @media(max-width:610px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .About-me-img{
         width: 80%;
     }
