@@ -31,3 +31,25 @@ sr.reveal('#img5', { delay:400 });
 sr.reveal('.text',{origin:'left'});
 
 
+let menubar = document.querySelector('.menu');
+let lines = document.querySelector('.lines');
+let line1 = document.getElementById('line1');
+let line2 = document.getElementById('line2');
+let line3 = document.getElementById('line3');
+lines.addEventListener('click', () => {
+  if (menubar.style.display === 'flex') {
+    menubar.style.transform = 'translateX(100%)';
+    line1.style.transform = 'rotate(0deg)';
+    line3.style.transform = 'rotate(0deg)';
+    line2.style.opacity = 1;
+    setTimeout(() => {
+      menubar.style.display = 'none';
+    }, 300); // Adjust the delay if needed
+  } else {
+    menubar.style.display = 'flex';
+    line1.style.transform = 'translate3d(0,6px,0) rotate(45deg)';
+    line3.style.transform = 'translate3d(0,-6px,0) rotate(-45deg)';
+    line2.style.opacity = 0;
+  }
+});
+
