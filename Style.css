@@ -15,6 +15,7 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     color: var(--second-color);
@@ -300,6 +301,9 @@ textarea{
 }
 /*media*/
  @media(max-width:866px) {
+    .inder-logo{
+        background-size: 350px;
+    }
     .menu{
         display: none;
         flex-direction: column;
