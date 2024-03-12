@@ -27,6 +27,7 @@ sr.reveal('#img2', { delay:100 });
 sr.reveal('#img3', { delay:200 });
 sr.reveal('#img4', { delay:300 });
 sr.reveal('#img5', { delay:400 });
+sr.reveal('#img6', { delay:500 });
 
 sr.reveal('.text',{origin:'left'});
 
