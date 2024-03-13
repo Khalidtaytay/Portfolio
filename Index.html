@@ -102,12 +102,13 @@
             <h2>Contact</h2>
             <p class="text">Feel free to reach out to me via email or connect with me on social media :</p>
             <div class="Contacting">
-                <div class="Contactionf-info">
-                    <input id="contatid" type="text" placeholder="Full name">
-                    <input id="contatid" type="text" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                <form action="https://api.web3forms.com/submit" method="POST" class="Contactionf-info">
+                    <input type="hidden" name="access_key" value="892458b0-61af-4c75-821f-6a7f94fce46e">
+                    <input id="contatid" name="full name" type="text" placeholder="Full name">
+                    <input id="contatid" name="email" type="text" placeholder="Email">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
                     <button>Send</button>
-                </div>
+                </form>
             </div>
         </div>
         
