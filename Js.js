@@ -28,6 +28,7 @@ sr.reveal('#img3', { delay:200 });
 sr.reveal('#img4', { delay:300 });
 sr.reveal('#img5', { delay:400 });
 sr.reveal('#img6', { delay:500 });
+sr.reveal('#img7', { delay:0 });
 
 sr.reveal('.text',{origin:'left'});
 
@@ -53,6 +54,4 @@ lines.addEventListener('click', () => {
     line2.style.opacity = 0;
   }
 });
-
-//email
 

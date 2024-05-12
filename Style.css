@@ -209,21 +209,24 @@ button a{
     bottom: 0;
 }
 #skill1::after{
-    width: 90%;
+    width: 95%;
 }
 #skill2::after{
     width: 80%;
 }
 #skill3::after{
-    width: 60%;
+    width: 75%;
 }
 #skill4::after{
-    width: 30%;
+    width: 60%;
 }
 #skill5::after{
     width: 60%;
 }
 #skill6::after{
+    width: 30%;
+}
+#skill7::after{
     width: 40%;
 }
 
