@@ -253,14 +253,18 @@ button a{
 .MyProjects img{
     display: block;
     width: 390px;
+    height: 100%;
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid gray;
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.5);
     transition: 0.25s;
 }
-.MyProjects img:hover{
-    opacity: 0.5;
+.MyProjects a{
+    transition: .25s;
+}
+.MyProjects a:hover{
+    opacity: 0.9;
 }
 
 /*Contact*/
